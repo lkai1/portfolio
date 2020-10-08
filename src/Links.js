@@ -5,7 +5,7 @@ import linkedin_logo from './linkedin.png'
 import { Link } from 'react-router-dom'
 const Links = () => {
     return (
-        <div>
+        <div id="linksPage">
             <div className="navBar">
                 <div className="navGrid">
                     <Link to='/links' className="link">Links</Link>

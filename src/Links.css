@@ -1,4 +1,7 @@
-
+#linksPage {
+    height: 100vh;
+    background-color: rgb(233, 233, 233);
+}
 #linksText {
     font-size: larger;
     margin-bottom: 35px;
@@ -6,7 +9,7 @@
 #linksDiv {
     text-align: center;
     position: relative;
-    top: 300px;
+    top: 38%;
 }
 #linkedinlogo {
     height: 32px;
@@ -15,6 +18,9 @@
 html,body{
     height: 100%;
     margin: 0;
-    overflow-y: hidden; 
-    overflow-x: hidden; 
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
   }
+  ::-webkit-scrollbar {
+    display: none;
+}

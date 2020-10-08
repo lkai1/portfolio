@@ -1,0 +1,15 @@
+
+#contactPage {
+    height: 100vh;
+    background-color: rgb(233, 233, 233);
+}
+#contactDiv {
+    text-align: center;
+    position: relative;
+    top: 38%;
+}
+#contactText {
+    color: rgb(0, 34, 185);
+    font-size: larger;
+    margin-bottom: 35px;
+}
