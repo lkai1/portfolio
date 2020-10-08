@@ -1,0 +1,20 @@
+
+#linksText {
+    font-size: larger;
+    margin-bottom: 35px;
+}
+#linksDiv {
+    text-align: center;
+    position: relative;
+    top: 300px;
+}
+#linkedinlogo {
+    height: 32px;
+    padding-left: 5px;
+}
+html,body{
+    height: 100%;
+    margin: 0;
+    overflow-y: hidden; 
+    overflow-x: hidden; 
+  }
