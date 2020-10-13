@@ -20,10 +20,7 @@ const App = () => {
           <div id="aboutMeDiv">
             <h2>About me</h2>
             <p>
-              When I first started to learn coding I felt so confused even by simple variables.
-            </p>
-            <p>
-              Now I have been learning little over a year and everyday i feel more passionate about coding.
+              I have been learning little over a year and everyday i feel more passionate about coding.
               </p>
             <p>I like being creative and solving problems. Everyday I am getting better at it.</p>
             <p>I am starting to feel confident about getting my first coding job and started applying.</p>
