@@ -19,13 +19,11 @@ const App = () => {
           </div>
           <div id="aboutMeDiv">
             <h2>About me</h2>
-            <p>
-              I have been learning little over a year and everyday i feel more passionate about coding.
-              </p>
-            <p>I like being creative and solving problems. Everyday I am getting better at it.</p>
-            <p>I am starting to feel confident about getting my first coding job and started applying.</p>
-            <p>I hope I will get a chance soon to improve my skills with real work assignments and </p>
-            <p>make them provide real value.</p>
+            <p>I started learning to code a little over one year ago now and every day I feel more passionate about it.</p>
+            <p>I like solving problems and being creative.</p>
+            <p>I am starting to feel confident enough about my skills in Front-End and React,</p>
+            <p>so I started applying to jobs.</p>
+            <p>I hope I will soon get my first job in the industry and a chance to improve my skills with real work assignments.</p>
           </div>
         </div>
         <div id="rightFront">
