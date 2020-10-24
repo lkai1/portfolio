@@ -15,7 +15,7 @@ const App = () => {
         <div id="leftFront">
           <div id="nameText">
             <h1>KAI LEHTINEN</h1>
-            <p>FrontEnd/FullStack Web developer</p>
+            <p>FullStack Web developer</p>
           </div>
           <div id="aboutMeDiv">
             <h2>About me</h2>
@@ -39,6 +39,7 @@ const App = () => {
               <p>- JSX</p>
               <p>- SQL</p>
               <p>- Java</p>
+              <p>- TypeScript</p>
             </div>
             <div id="educationText">
               <h3>EDUCATION</h3>
@@ -53,9 +54,10 @@ const App = () => {
             </div>
             <div id="otherText">
               <h3>OTHER</h3>
+              <p>- React Native</p>
+              <p>- GraphQL</p>
               <p>- MongoDB</p>
-              <p>- GitHub</p>
-              <p>- GitLab</p>
+              <p>- Git</p>
               <p>- Redux</p>
               <p>- React</p>
               <p>- Scrum</p>
