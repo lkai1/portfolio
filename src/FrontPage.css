@@ -1,15 +1,6 @@
-.wrapper {
-  display: grid;
-  grid-auto-columns: 50%;
-  grid-template-areas: "a a";
-  height: 100vh;
-}
+
 #rightFront {
   background-color: rgb(27, 27, 27);
-}
-#leftFront {
-  background-color: rgb(0, 140, 221);
-  color: rgb(34, 34, 34);
 }
 .link {
   line-height: 70px;
@@ -30,18 +21,16 @@
   position: absolute;
 }
 .skillsGrid {
+  background-color: black;
   text-align: center;
   position: relative;
-  margin-top: 25%;
   display: grid;
   grid-auto-columns: 33.33%;
   grid-template-areas: "a a a";
 }
 #skillsText {
+  font-size: larger;
   text-align: center;
-  position: relative;
-  color: rgb(226, 226, 226);
-  top: 15%;
 }
 h1, h2, h3, h4 {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
@@ -53,14 +42,28 @@ p {
   font-size: large;
 }
 #nameText{
-  margin-left: 5%;
-  position: relative;
-  top: 15%;
+  background-color: rgb(46, 104, 211);
+  text-align: center;
+  margin-top: 70px;
+  padding: 5px;
 }
-#aboutMeDiv {
-  margin-left: 5%;
-  position: relative;
-  top: 25%;
+#job-title {
+  font-family: fantasy;
+}
+.projectInfo {
+  font-weight: bold;
+}
+#name {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#projectsText {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+}
+.projectHeader {
+  font-size: large;
+  font-weight: bold;
 }
 #otherText {
   color: rgb(226, 226, 226);
@@ -81,4 +84,7 @@ html,body{
   margin: 0;
   -ms-overflow-style: none;
   scrollbar-width: none; 
+}
+#projects {
+  text-align: center;
 }

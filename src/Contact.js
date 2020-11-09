@@ -7,7 +7,7 @@ const Contact = () => {
             <div className="navBar">
                 <div className="navGrid">
                     <Link to='/links' className="link">Links</Link>
-                    <Link to='/' id="portfolio" className="link">PORTFOLIO</Link>
+                    <Link to='/portfolio' id="portfolio" className="link">PORTFOLIO</Link>
                     <Link to='/contact' id="contanctBtn" className="link">Contact</Link>
                 </div>
             </div>
