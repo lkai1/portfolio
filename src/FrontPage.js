@@ -1,9 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './FrontPage.css';
 import { Link } from 'react-router-dom'
 import saakuva from './saakuva.jpg'
 import bhgame from './bhgame.png'
+import mApp1 from './meetingsappforport1.png'
+import mApp2 from './meetingsappforport2.png'
+import mApp3 from './meetingsappforport3.png'
 const App = () => {
+  const mAppPics = [mApp1, mApp2, mApp3]
+  const [mAppPos, setMAppPos] = useState(0)
+  const leftArrowClick = () => {
+    if (mAppPos === 0) {
+      setMAppPos(mAppPics.length - 1)
+    } else {
+      setMAppPos(mAppPos - 1)
+    }
+  }
+  const rightArrowClick = () => {
+    if (mAppPos === mAppPics.length - 1) {
+      setMAppPos(0)
+    } else {
+      setMAppPos(mAppPos + 1)
+    }
+  }
+
   return (
     <div className="FrontPage">
       <div className="navBar">
@@ -29,6 +49,15 @@ const App = () => {
           <p className="projectInfo">https://salty-brook-58323.herokuapp.com/</p>
           <img src={saakuva} width="300px" height="200px" />
           <p className="projectInfo">Source code is in Links/github.</p>
+        </div>
+        <div>
+          <p className="projectHeader">Meetings App</p>
+          <p className="projectInfo">Work in progress...</p>
+          <div className="meetingsDiv">
+            <p onClick={leftArrowClick} className="arrows">{"<"}</p>
+            <img src={mAppPics[mAppPos]} left="200px" width="220px" height="400px" />
+            <p onClick={rightArrowClick} className="arrows">{">"}</p>
+          </div>
         </div>
       </div>
       <div id="skillsText">
