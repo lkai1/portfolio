@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 import './FrontPage.css';
-import { Link } from 'react-router-dom'
 import saakuva from './saakuva.jpg'
 import bhgame from './bhgame.png'
 import mApp1 from './meetingsappforport1.png'
 import mApp2 from './meetingsappforport2.png'
 import mApp3 from './meetingsappforport3.png'
+import lca from './elamanhallinta-app.png'
+import GitHub_logo from './GitHub_logo.png'
+import linkedin_logo from './linkedin.png'
 const App = () => {
   const mAppPics = [mApp1, mApp2, mApp3]
   const [mAppPos, setMAppPos] = useState(0)
@@ -25,29 +27,30 @@ const App = () => {
   }
 
   return (
-    <div className="FrontPage">
-      <div className="navBar">
-        <div className="navGrid">
-          <Link to='/links' className="link">Links</Link>
-          <Link to='/portfolio' id="portfolio" className="link">PORTFOLIO</Link>
-          <Link to='/contact' id="contanctBtn" className="link">Contact</Link>
-        </div>
-      </div>
+    <div id="FrontPage">
       <div id="nameText">
         <h1 id="name">KAI LEHTINEN</h1>
-        <p id="job-title">Full-Stack Web Developer</p>
+        <p id="job-title">Web/Mobile Developer</p>
       </div>
       <div id="projects">
         <p id="projectsText">PROJECTS</p>
+        <div id="project">
+          <div>
+            <p className="projectHeader">Life control app</p>
+          </div>
+          <div className="projectImg">
+            <img alt={"loading"} src={lca} width="220px" height="400px" />
+          </div>
+        </div>
         <div>
           <p className="projectHeader">BUNNY_HOP</p>
           <p className="projectInfo">https://play.google.com/store/apps/details?id=com.LKdev.bunny_hop</p>
-          <img src={bhgame} width="200px" height="400px" />
+          <img alt={"loading"} src={bhgame} width="200px" height="400px" />
         </div>
         <div>
           <p className="projectHeader">Weather App</p>
           <p className="projectInfo">https://salty-brook-58323.herokuapp.com/</p>
-          <img src={saakuva} width="300px" height="200px" />
+          <img alt={"loading"} src={saakuva} width="300px" height="200px" />
           <p className="projectInfo">Source code is in Links/github.</p>
         </div>
         <div>
@@ -55,7 +58,7 @@ const App = () => {
           <p className="projectInfo">Work in progress...</p>
           <div className="meetingsDiv">
             <p onClick={leftArrowClick} className="arrows">{"<"}</p>
-            <img src={mAppPics[mAppPos]} left="200px" width="220px" height="400px" />
+            <img alt={"loading"} src={mAppPics[mAppPos]} left="200px" width="220px" height="400px" />
             <p onClick={rightArrowClick} className="arrows">{">"}</p>
           </div>
         </div>
@@ -95,6 +98,16 @@ const App = () => {
           <p>- React</p>
           <p>- Scrum</p>
         </div>
+      </div>
+      <div id="contactDiv">
+        <p>Email: kai-le@outlook.com</p>
+        <p>Phone: 0403723822</p>
+        <p>City: Nokia, Finland</p>
+      </div>
+      <div id="linksDiv">
+        <p id="linksText">Checkout my GitHub and LinkedIn</p>
+        <a href="https://github.com/lkai1"><img alt={"loading"} src={GitHub_logo}></img></a>
+        <a href="https://www.linkedin.com/in/kai-lehtinen/"><img alt={"loading"} src={linkedin_logo} id="linkedinlogo"></img></a>
       </div>
       {/* <span id="sertificates">
             <h2>SERTIFICATES</h2>

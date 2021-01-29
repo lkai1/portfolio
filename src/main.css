@@ -1,0 +1,10 @@
+#projectsDiv {
+    display: flex;
+	justify-content: center;
+}
+.projectDiv {
+    width: 600px;
+    justify-items: center;
+    display: grid;
+    grid-template-areas: "a a";
+}

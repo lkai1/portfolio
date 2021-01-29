@@ -1,24 +1,9 @@
 
+#FrontPage {
+  align-items: center;
+}
 #rightFront {
   background-color: rgb(27, 27, 27);
-}
-.link {
-  line-height: 70px;
-  vertical-align: middle;
-  display: inline-block;
-  color: white;
-  text-decoration: none;
-  font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.navBar {
-  top: 0%;
-  width: 100%;
-  height: 70px;
-  background-color: rgb(0, 0, 0);
-  color: white;
-  text-align: center;
-  display: inline-block;
-  position: absolute;
 }
 .skillsGrid {
   background-color: black;
@@ -49,9 +34,6 @@ h1, h2, h3, h4 {
 p {
   font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-#portfolio {
-  font-size: large;
-}
 #nameText{
   background-color: rgb(46, 104, 211);
   text-align: center;
@@ -60,6 +42,9 @@ p {
 }
 #job-title {
   font-family: fantasy;
+}
+.projectImg {
+  text-align: center;
 }
 .projectInfo {
   font-weight: bold;
@@ -85,10 +70,11 @@ p {
 #educationText {
   color: rgb(226, 226, 226);
 }
-.navGrid {
+#project {
+  background-color: brown;
   display: grid;
-  grid-auto-columns: 33.33%;
-  grid-template-areas: "a a a";
+  grid-auto-columns: 50%;
+  grid-template-areas: "a a";
 }
 html,body{
   height: 100%;

@@ -1,11 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import PageRouter from './PageRouter'
+import FrontPage from './FrontPage'
+import Main from './Main'
 
-ReactDOM.render(
-  <React.StrictMode>
-    <PageRouter />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+ReactDOM.render(<Main />, document.getElementById('root'))
 
