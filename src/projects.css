@@ -1,19 +1,79 @@
+@media only screen and (min-width : 830px) {
+    #projectsDiv {
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        margin-left: 50%;
+        position: relative;
+        left: -400px;
+        width: 800px;
+        height: 300px;
+        background-color: black;
+    }
+    .projectDiv {
+        display: flex;
+    }
+    .projectInfo {
+        margin-right: 10px;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .projectTitle {
+        color: #fdde2f;
+        font-size: 20px;
+        font-family: monospace;
+    }
+    .subTitle {
+        color: #fdde2f;
+        font-size: 17px;
+        font-family: monospace;
+    }
+    .aboutText {
+        display: inline-block;
+        color: ghostwhite;
+        margin: 5px;
+        font-size: 12px;
+        font-family: monospace;
+    }
+    #navblocks {
+        position: relative;
+        left: -149px;
+        margin-left: 50%;
+        width: 298px;
+        top: 10px;
+        display: grid;
+        grid-template-areas: "a a a";
+    }
+    #navblock1 {
+        border-radius: 10px;
+        margin: 8px;
+        background-color: rgb(44, 173, 248);
+        width: 75px;
+        height: 10px;
+    }
+    #navblock2 {
+        border-radius: 10px;
+        margin: 8px;
+        width: 75px;
+        height: 10px;
+        background-color: rgb(44, 173, 248, 0.35);
+    }
+}
+@media only screen and (max-width : 830px) {
 #projectsDiv {
-    border: black solid 3px;
+    display: inline-block;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     position: relative;
     margin-left: 50%;
-    left: -400px;
-    width: 800px;
-    height: 300px;
+    left: -87.5px;
+    width: 165px;
+    height: 600px;
     background-color: black;
 }
 .projectDiv {
-    display: flex;
+    display: inline-block;
 }
 .projectInfo {
-    margin-right: 10px;
     border-radius: 10px;
     text-align: center;
 }
@@ -28,18 +88,18 @@
     font-family: monospace;
 }
 .aboutText {
+    margin: 5px;
     display: inline-block;
     color: ghostwhite;
-    margin: 5px;
     font-size: 12px;
     font-family: monospace;
 }
 #navblocks {
     position: relative;
-    left: -125px;
+    display: inline-block;
+    left: -149px;
     margin-left: 50%;
-    width: 250px;
-    top: 10px;
+    width: 298px;
     display: grid;
     grid-template-areas: "a a a";
 }
@@ -56,4 +116,5 @@
     width: 75px;
     height: 10px;
     background-color: rgb(44, 173, 248, 0.35);
+    }
 }

@@ -10,7 +10,6 @@ import lca1 from './images/lifecontrolapp1.png'
 import lca2 from './images/lifecontrolapp2.png'
 import GitHub_logo from './images/GitHub_logo.png'
 import './projects.css'
-
 const boldText = (text) => {
     return <span style={{ fontWeight: "bolder" }}>{text}</span>
 }
@@ -50,13 +49,13 @@ const FirstProject = ({ onProjectInfoClick }) => {
                     and also a spending type.
                     For calculating weekly averages I created a {boldText("calendar")} type of system.
                     </p>
-                <div style={{ marginLeft: 20, borderRadius: 50, height: 25, width: 25, backgroundColor: 'ghostwhite' }}>
-                    <a href="https://github.com/lkai1/elamanhallinta-app" target="_blank" rel="noopener noreferrer"><img style={{ marginTop: 2.5, marginLeft: 0.75, width: 20, height: 20 }} src={GitHub_logo} /></a>
+                <div style={{ display: "inline-block", borderRadius: 50, height: 25, width: 25, backgroundColor: 'ghostwhite' }}>
+                    <a href="https://github.com/lkai1/elamanhallinta-app" target="_blank" rel="noopener noreferrer"><img alt="loading" style={{ width: 25, height: 25 }} src={GitHub_logo} /></a>
                 </div>
             </div>
             <div>
-                <img onClick={() => onImageClick()} src={images[imagePos]} style={{ borderTopRightRadius: 15, width: 165, height: 300 }} />
-                <div style={{ marginLeft: 10, display: "flex", position: "absolute", height: 0, bottom: 15 }}>
+                <img alt="loading" onClick={() => onImageClick()} src={images[imagePos]} style={{ borderTopRightRadius: 15, width: 166, height: 300 }} />
+                <div style={{ marginLeft: 10, display: "flex", height: 0, bottom: 15 }}>
                     <div style={{ margin: 3, width: 20, height: 5, borderRadius: 50, backgroundColor: imageSelectedColor(0) }}></div>
                     <div style={{ margin: 3, width: 20, height: 5, borderRadius: 50, backgroundColor: imageSelectedColor(1) }}></div>
                     <div style={{ margin: 3, width: 20, height: 5, borderRadius: 50, backgroundColor: imageSelectedColor(2) }}></div>
@@ -103,8 +102,8 @@ const SecondProject = ({ onProjectInfoClick }) => {
                     </p>
             </div>
             <div>
-                <img onClick={() => onImageClick()} src={images[imagePos]} style={{ borderTopRightRadius: 15, width: 165, height: 300 }} />
-                <div style={{ marginLeft: 10, display: "flex", position: "absolute", height: 0, bottom: 15 }}>
+                <img alt="loading" onClick={() => onImageClick()} src={images[imagePos]} style={{ borderTopRightRadius: 15, width: 166, height: 300 }} />
+                <div style={{ marginLeft: 10, display: "flex", height: 0, bottom: 15 }}>
                     <div style={{ margin: 3, width: 20, height: 5, borderRadius: 50, backgroundColor: imageSelectedColor(0) }}></div>
                     <div style={{ margin: 3, width: 20, height: 5, borderRadius: 50, backgroundColor: imageSelectedColor(1) }}></div>
                     <div style={{ margin: 3, width: 20, height: 5, borderRadius: 50, backgroundColor: imageSelectedColor(2) }}></div>
@@ -149,13 +148,13 @@ const ThirdProject = ({ onProjectInfoClick }) => {
                     The Coin is randomly put on a tile that is not in front of the bunny and is not a trap.
                     Every state is handled by {boldText("Redux")}.
                 </p>
-                <div style={{ marginLeft: 20, borderRadius: 50, height: 25, width: 25, backgroundColor: 'ghostwhite' }}>
-                    <a href="https://github.com/lkai1/bunny-hop" target="_blank" rel="noopener noreferrer"><img style={{ marginTop: 2.5, marginLeft: 0.75, width: 20, height: 20 }} src={GitHub_logo} /></a>
+                <div style={{ display: "inline-block", borderRadius: 50, height: 25, width: 25, backgroundColor: 'ghostwhite' }}>
+                    <a href="https://github.com/lkai1/bunny-hop" target="_blank" rel="noopener noreferrer"><img alt="loading" style={{ height: 25, width: 25 }} src={GitHub_logo} /></a>
                 </div>
             </div>
             <div>
-                <img onClick={() => onImageClick()} src={images[imagePos]} style={{ borderTopRightRadius: 15, height: 300 }} />
-                <div style={{ marginLeft: 10, display: "flex", position: "absolute", height: 0, bottom: 15 }}>
+                <img alt="loading" onClick={() => onImageClick()} src={images[imagePos]} style={{ borderTopRightRadius: 15, width: 166, height: 300 }} />
+                <div style={{ marginLeft: 10, display: "flex", height: 0, bottom: 15 }}>
                     <div style={{ margin: 3, width: 20, height: 5, borderRadius: 50, backgroundColor: imageSelectedColor(0) }}></div>
                     <div style={{ margin: 3, width: 20, height: 5, borderRadius: 50, backgroundColor: imageSelectedColor(1) }}></div>
                 </div>
