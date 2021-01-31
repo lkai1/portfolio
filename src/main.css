@@ -1,10 +1,41 @@
-#projectsDiv {
+#mainDiv {
+    height: 100%;
+}
+#titleDiv {
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    margin-bottom: 120px;
+    text-align: center;
+}
+#titleText {
+    display: inline-block;
+    color: #fdde2f;
+    font-family: monospace;
+    font-size: 25px;
+    margin: 35px;
+}
+#whiteTitleText {
+    display: inline-block;
+    color: ghostwhite;
+    font-family: monospace;
+    font-size: 25px;
+    margin: 35px;
+}
+#contactInfo {
+    margin-top: 120px;
+    background-color: black;
+    height: 100px;
     display: flex;
-	justify-content: center;
+    align-items: center;
+    justify-content: center;
 }
-.projectDiv {
-    width: 600px;
-    justify-items: center;
-    display: grid;
-    grid-template-areas: "a a";
+#contactText {
+    margin: 20px;
+    color: ghostwhite;
+    font-size: 18px;
+    font-family: monospace;
 }
+html,body{
+    margin: 0;
+    padding: 0;
+  }
